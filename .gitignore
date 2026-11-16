@@ -1,0 +1,22 @@
+# Gradle build & cache
+.gradle/
+**/build/
+!**/src/main/build/
+!**/src/target/build/
+
+# Android Studio & IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Local configuration & environment
+local.properties
+.artifacts/
+
+# Generated outputs
+*.apk
+*.aab
+*.keystore
+*.jks
